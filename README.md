@@ -1,13 +1,13 @@
 # Restaurant Rating Analysis & Prediction
 
-## 🔷 Overview
+### 🔷 Overview
 This project performs an end-to-end **data analysis and machine learning pipeline** on a restaurant dataset.  
 
 It focuses on extracting meaningful insights about customer preferences, pricing, cuisines, and location trends, and builds machine learning models to **accurately predict restaurant ratings based on structured features**.
 
 ---
 
-## 🎯 Key Objectives
+### 🎯 Key Objectives
 - Clean and preprocess real-world data
 - Perform exploratory data analysis (EDA)
 - Analyze geospatial and categorical patterns
@@ -17,7 +17,7 @@ It focuses on extracting meaningful insights about customer preferences, pricing
 
 ---
 
-## 📊 Dataset Features
+### 📊 Dataset Features
 The dataset includes:
 - Restaurant Name
 - City & Country Code
@@ -31,9 +31,10 @@ The dataset includes:
 
 ---
 
-## ⚙️ Project Workflow
+### ⚙️ Project Workflow
 
-### 🔹 1. Data Exploration & Preprocessing
+**🔹 1. Data Exploration & Preprocessing**
+
 - Checked dataset dimensions
 - Handled missing values
 - Converted data types
@@ -42,7 +43,8 @@ The dataset includes:
 
 ---
 
-### 🔹 2. Descriptive Analysis
+**🔹 2. Descriptive Analysis**
+
 - Calculated statistical measures (mean, median, std)
 - Explored:
   - Cities 
@@ -51,21 +53,24 @@ The dataset includes:
 
 ---
 
-### 🔹 3. Geospatial Analysis
+**🔹 3. Geospatial Analysis**
+
 - Visualized restaurant locations using latitude & longitude
 - Studied distribution across regions
 - Analyzed relationship between **location and ratings**
 
 ---
 
-### 🔹 4. Price Range Insights
+**🔹 4. Price Range Insights**
+
 - Identified most common price range
 - Compared average ratings across price categories
 - Observed trends between affordability and ratings
 
 ---
 
-### 🔹 5. Feature Engineering
+**🔹 5. Feature Engineering**
+
 - Created:
   - `Has_Table_Booking`
   - `Has_Online_Delivery`
@@ -76,7 +81,8 @@ The dataset includes:
 
 ---
 
-### 🔹 6. Predictive Modeling
+**🔹 6. Predictive Modeling**
+
 Built regression models to predict restaurant ratings:
 - Linear Regression
 - Decision Tree
@@ -88,7 +94,8 @@ Built regression models to predict restaurant ratings:
 
 ---
 
-### 🔹 7. Customer Preference Analysis
+**🔹 7. Customer Preference Analysis**
+
 - Analyzed cuisine vs rating relationship
 - Identified:
   - Most popular cuisines (based on votes)
@@ -96,14 +103,15 @@ Built regression models to predict restaurant ratings:
 
 ---
 
-### 🔹 8. Data Visualization
+**🔹 8. Data Visualization**
+
 - Histogram (rating distribution)
 - Bar charts (city & cuisine comparison)
 - Scatter plots (feature relationships)
 
 ---
 
-## 📌 Key Insights
+### 📌 Key Insights
 - Certain cuisines consistently receive higher ratings
 - Mid-range price restaurants often perform better
 - Online delivery increases engagement (votes)
@@ -111,7 +119,7 @@ Built regression models to predict restaurant ratings:
 
 ---
 
-## 🛠️ Tech Stack
+### 🛠️ Tech Stack
 - Python 
 - Pandas & NumPy
 - Matplotlib & Seaborn
